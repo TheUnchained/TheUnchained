@@ -7,6 +7,7 @@ backend:
   auth_endpoint: "callback"
 
 media_folder: 'src/assets/images'
+
 public_folder: '/_astro'
 
 collections:
