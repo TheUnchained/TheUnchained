@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Mogost/test
+  repo: TheUnchained/test
   branch: main
   auth_scope: repo
   app_id: "Ov23liOJO2bOKxbzb3e7"
