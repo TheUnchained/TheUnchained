@@ -1,6 +1,11 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Mogost/test
   branch: main
+  auth_scope: repo
+  app_id: "Ov23liOJO2bOKxbzb3e7"
+  base_url: "https://github.com"
+  auth_endpoint: "https://github.com/login/oauth/authorize"
 
 media_folder: 'src/assets/images'
 public_folder: '/_astro'

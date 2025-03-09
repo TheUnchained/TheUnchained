@@ -20,9 +20,11 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const hasExternalScripts = false;
 const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroIntegration)[] = []) =>
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
+const repoName = 'test';
 
 export default defineConfig({
   output: 'static',
+  base: '/${repoName}/',
 
   integrations: [
     tailwind({
