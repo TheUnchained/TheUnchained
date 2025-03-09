@@ -3,8 +3,7 @@ backend:
   repo: TheUnchained/test
   branch: main
   auth_scope: repo
-  base_url: "https://decap.totum.win"
-  auth_endpoint: "callback"
+  base_url: "https://decap.totum.win/"
 
 media_folder: 'src/assets/images'
 
