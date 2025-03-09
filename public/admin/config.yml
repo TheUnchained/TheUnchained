@@ -2,6 +2,9 @@ backend:
   name: github
   repo: TheUnchained/test
   branch: main
+  auth_scope: repo
+  base_url: "https://decap.totum.win"
+  auth_endpoint: "callback"
 
 media_folder: 'src/assets/images'
 public_folder: '/_astro'
