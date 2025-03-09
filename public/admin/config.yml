@@ -1,7 +1,5 @@
 backend:
-  name: github
-  repo: TheUnchained/test
-  branch: main
+  name: git-gateway
 
 media_folder: 'src/assets/images'
 public_folder: '/_astro'
